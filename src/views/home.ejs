@@ -7,10 +7,11 @@
     
     <link rel="stylesheet" href="/css/home.css">
 </head>
-<body>
+<body id="main">
 <!--header con menu hamburguesa-->
     <header class="header">
         <div class="container">
+            <!--menu hamburguesa-->
             <div class="btn-menu">
                 <button class="hamburger-button" id="hamburger-button">
                     <div class="bar"></div>
@@ -18,14 +19,22 @@
                     <div class="bar"></div>
                 </button>        
              </div>
+             <div id="menu">
+                 <ul>
+                     <li><a href="#">Sobre Mi</a></li>
+                     <li><a href="#">Sesiones</a></li>
+                     <li><a href="#">Evento</a></li>
+                     <li><a href="#">Contacto</a></li>   
+             </div>
             <div class="logo">
                 <img src="/images/logo.jpg" alt="logo">
             </div>
         </div>
     </header>
-<!--menu hamburguesa-->
+
     <main>
         <img class="bg-home" src="/images/bg-home.jpg" alt="imagen1">
     </main>
+    <script src="/js/home.js"></script>
 </body>
 </html>
